@@ -21,6 +21,21 @@ FashionablyLate
 - php artisan migrate
 - php artisan db:seed
 
+## トラブルシューティング（必要な場合）
+
+環境によっては、Laravel がログやキャッシュを書き込む際に  
+パーミッションエラーが発生する場合があります。
+
+**例：**
+The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: Permission denied
+
+この場合は、以下のコマンドを実行してください。
+
+```bash
+docker-compose exec php bash
+chmod -R 777 storage bootstrap/cache
+```
+
 ## 開発環境
 - お問い合わせ画面: [http://localhost/](http://localhost/)
 - 新規登録画面: [http://localhost/register](http://localhost/register)
