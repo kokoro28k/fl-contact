@@ -1,0 +1,35 @@
+.header {
+    border-bottom: 1px solid #ddd;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #998b7d;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "Roboto Slab", serif;
+}
+
+.contact-form__heading {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+
+}
+
+h2 {
+    font-weight: normal;
+    font-family: "Roboto Slab", serif;
+}
+
+.form {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}

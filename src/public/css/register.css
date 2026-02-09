@@ -1,0 +1,28 @@
+.register-form__content {
+
+    margin: o auto;
+}
+
+.register-form__heading {
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #998b7d;
+
+}
+
+.form__button-submit {
+    padding: 10px;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    background: #82756b;
+    color: #fff;
+    cursor: pointer;
+}
+
+body {
+    background: #f1ece6;
+
+}

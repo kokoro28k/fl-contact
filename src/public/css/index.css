@@ -1,0 +1,275 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    color: #998b7d;
+}
+
+
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    text-align: left;
+    padding: 10px;
+}
+
+.form__group-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 600px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #ff0000;
+}
+
+.form__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+input[type="radio"] {
+    accent-color: #998b7d;
+    margin-right: 6px;
+}
+
+.form__error {
+    height: 30px;
+    color: #ff0000;
+    text-align: left;
+    margin-top: 5px;
+    display: block;
+}
+
+.form__input--text {
+    height: 40px;
+    color: #998b7d;
+}
+
+.form__gender--item {
+    margin-left: 6px;
+}
+
+.form__tel-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+}
+
+.form__tel-wrapper input {
+    background: #f4f4f4;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    text-align: center;
+    color: #998b7d;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    color: #998b7d;
+}
+
+
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    text-align: left;
+    padding: 10px;
+}
+
+.form__group-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 600px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #ff0000;
+}
+
+.form__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.form__error {
+    height: 30px;
+    color: #ff0000;
+    text-align: left;
+    margin-top: 5px;
+    display: block;
+}
+
+.form__input--text {
+    height: 40px;
+    color: #998b7d;
+    margin-bottom: 20px;
+}
+
+.form__tel-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+}
+
+.form__tel-wrapper input {
+    background: #f4f4f4;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    text-align: center;
+    color: #998b7d;
+}
+
+
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px 30px;
+    width: 600px;
+    border: none;
+    border-radius: 3px;
+    appearance: none;
+    background: #f4f4f4;
+    color: #998b7d;
+}
+
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.name-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.name-wrapper input {
+    width: 48%;
+}
+
+.form__gender-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.form__gender--item {
+    color: #998b7d;
+}
+
+.form__button {
+    margin-top: auto;
+}
+
+.form__button-submit {
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #82756b;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.name-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.name-wrapper input {
+    width: 48%;
+}
+
+.form__gender-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+
+
+.form__category--item {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    background: #f4f4f4;
+
+    position: relative;
+
+}
+
+.form__category--item select {
+    appearance: none;
+    border: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    color: #998b7d;
+    padding: 10px 30px;
+}
+
+.form__category--item::after {
+    content: "▼";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #998b7d;
+    font-size: 12px;
+}
+
+.form__button {
+    margin-top: auto;
+}
+
+.form__button-submit {
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #82756b;
+    color: #fff;
+    cursor: pointer;
+}
